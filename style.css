@@ -1,0 +1,122 @@
+/* تنسيقات عامة */
+body {
+  margin: 0;
+  font-family: 'Cairo', sans-serif;
+  background: #f7f9fc;
+  color: #333;
+}
+
+/* شريط علوي */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 25px;
+  background: linear-gradient(90deg, #ff4b2b, #ff416c);
+  color: #fff;
+}
+
+.navbar .logo {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.navbar nav a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.navbar nav a:hover {
+  text-decoration: underline;
+}
+
+/* قسم الترحيب */
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  background: url('https://picsum.photos/1200/400?blur') center/cover no-repeat;
+  color: #fff;
+}
+
+.hero h2 {
+  font-size: 32px;
+}
+
+.hero h2 span {
+  color: #ffeb3b;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.hero button {
+  padding: 12px 24px;
+  background: #ff4b2b;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.hero button:hover {
+  background: #e63a1f;
+}
+
+/* قسم الخطط */
+.plans {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  padding: 40px;
+}
+
+.plan-card {
+  background: #fff;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  text-align: center;
+  transition: 0.3s;
+}
+
+.plan-card:hover {
+  transform: translateY(-5px);
+}
+
+.plan-card h3 {
+  margin: 10px 0;
+  color: #ff416c;
+}
+
+.plan-card p {
+  margin: 10px 0;
+}
+
+.plan-card button {
+  padding: 10px 20px;
+  background: #ff416c;
+  border: none;
+  color: #fff;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.plan-card button:hover {
+  background: #ff1744;
+}
+
+/* تذييل */
+.footer {
+  background: #222;
+  color: #aaa;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+}
